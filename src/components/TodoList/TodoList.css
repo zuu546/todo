@@ -1,0 +1,24 @@
+
+.todo-list{
+    max-height: 220px;
+    min-height: 220px;
+    overflow: auto;
+}
+.todo-list::-webkit-scrollbar {
+     width: 6px;
+}
+.todo-list::-webkit-scrollbar-track {
+    background: #ae05eb;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.todo-list::-webkit-scrollbar-thumb{
+    background: #4239da;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px
+}
+.todo-list::-webkit-scrollbar-thumb:hover{
+    background: #b440e1;
+}

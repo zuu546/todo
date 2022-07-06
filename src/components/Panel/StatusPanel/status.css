@@ -1,0 +1,60 @@
+
+ 
+ .but {
+   
+    background: rgba(136, 26, 215, 0.05);
+    border: 0.5px solid rgb(138, 14, 255);
+    outline: none;
+    height: 42px;
+    padding-top: 5px;
+    width: 45px;
+    transition: .6s;
+    backdrop-filter: blur(2px);
+    color: rgba(167, 5, 231, 0.7);
+    font-family: 'Veles';
+    font-size: 16px;
+ }
+ 
+ .but.active {
+    background: #e407d282;
+    color: #fff;
+ }
+ 
+ .but:hover {
+    
+    border: 0.5px solid #9008da;
+    background: #8909de;
+    box-shadow: 20px  #9407e080;
+    color: #fff;
+ }
+ .but:nth-child(1) {
+    border-radius: 8px ;
+    background: #f7e704;
+    color: #fff;
+ }
+ .but:nth-child(1):hover {
+   border: 0.5px solid #a207f0;
+   background: #6c06f3;
+   box-shadow: 20px  #7e15f780; 
+ }
+ .but:nth-child(2) {
+    border-radius: 5px ;
+    background: #f0f80b;
+    color: #fff;
+ }
+ .but:nth-child(2):hover {
+   border: 0.5px solid #a00aeb;
+   background: #9806fa;
+   box-shadow: 20px  #8f07f0fe; 
+ }
+ 
+ .but:nth-child(3) {
+    border-radius: 8px;
+    background: #f6f60a;
+    color: #fff;
+ }
+ .but:nth-child(3):hover {
+   border: 0.5px solid #9106edf2;
+   background: #7507f3;
+   box-shadow: 20px  #5e09e780; 
+ }

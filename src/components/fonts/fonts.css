@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Veles';
+    src: url('Veles-Bold.eot');
+    src: local('Veles-Bold'),
+        url('Veles-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Veles-Bold.woff2') format('woff2'),
+        url('Veles-Bold.woff') format('woff'),
+        url('Veles-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Veles';
+    src: url('Veles-Regular.eot');
+    src: local('Veles-Regular'),
+        url('Veles-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Veles-Regular.woff2') format('woff2'),
+        url('Veles-Regular.woff') format('woff'),
+        url('Veles-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

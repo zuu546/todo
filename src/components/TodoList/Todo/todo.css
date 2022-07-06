@@ -1,0 +1,97 @@
+.button{
+    
+        background: rgba(136, 26, 215, 0.05);
+        border: 0.5px solid rgb(138, 14, 255);
+        outline: none;
+        height: 42px;
+        padding-top: 5px;
+        width: 45px;
+        transition: .6s;
+        backdrop-filter: blur(2px);
+        color: rgba(167, 5, 231, 0.7);
+        font-family: 'Veles';
+        font-size: 14px;
+     }
+     
+     .button.active {
+        background: #9707e482;
+        color: #fff;
+     }
+     
+     .button:hover {
+        
+        border: 2px solid #9008da;
+        background: #8909de;
+        box-shadow: 20px  #9407e080;
+        color: #fff;
+     }
+     .button:nth-child(1) {
+        border-radius: 8px ;
+        background: #2209de;
+        border: 2px solid #1811d4;
+     }
+        .button:nth-child(1):hover {
+            background: #07b1e9;
+            order: 2px solid #07b1e9;
+        box-shadow: 20px  #5895e580;
+     }
+     
+     .button:nth-child(2) {
+        border-radius: 8px ;
+        background: #14de09;
+        border: 2px solid #1aee02;
+     }
+     .button:nth-child(2):hover {
+        border: 2px solid #de09c5;
+        background: #de09c5;
+        box-shadow: 20px  #37f22680;
+     }
+     
+     
+     .button:nth-child(3) {
+        border-radius: 8px;
+        background: #ebf305;
+        border: 1px solid #edde0e;
+     }
+     .button:nth-child(3):hover {
+        border: 2px solid #ecbb08;
+        background: #dec909;
+       
+     }
+     .button:nth-child(4) {
+        border-radius: 8px;
+        background: #f32505;
+        border: 1px solid #ed0e0e;
+     }
+     .button:nth-child(4):hover {
+        border: 2px solid #ec2a08;
+        background: #de0909;
+       
+     }
+     .btn-deleted{
+      border-radius: 8px ;
+    
+      background: rgba(5, 237, 194, 0.994);
+      border: 0.5px solid rgb(14, 255, 231);
+      outline: none;
+      height: 42px;
+      padding-top: 5px;
+      width: 45px;
+      transition: .6s;
+      backdrop-filter: blur(2px);
+      color: rgba(24, 243, 210, 0.7);
+     }
+     .btn-recycle{
+      border-radius: 8px ;
+      background: rgba(237, 5, 5, 0.994);
+      border: 0.5px solid rgb(255, 14, 34);
+      outline: none;
+      height: 42px;
+      padding-top: 5px;
+      width: 45px;
+      transition: .6s;
+      backdrop-filter: blur(2px);
+      color: rgba(243, 24, 24, 0.7);
+   
+   }
+     
